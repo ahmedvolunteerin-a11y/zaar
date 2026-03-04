@@ -14,7 +14,7 @@ export function detectLanguage(text) {
 
 export async function translate(text, src, dest) {
   const response = await fetch(
-    `http://127.0.0.1:5000/translate?text=${encodeURIComponent(text)}&src=${src}&dest=${dest}`,
+    `http://0.0.0.0:8080/translate?text=${encodeURIComponent(text)}&src=${src}&dest=${dest}`,
     { method: "GET" }
   );
 
