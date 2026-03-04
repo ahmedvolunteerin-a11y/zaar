@@ -61,6 +61,7 @@ app.use(
           "'self'",
           "http://localhost:5000",
           "http://127.0.0.1:5000",
+          "http://0.0.0.0:8080",
           "https://run.aicado.ai",
           "wss://run.aicado.ai",
           "https://*.aicado.ai",
